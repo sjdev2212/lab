@@ -57,13 +57,27 @@ function App() {
       <section className="paragraph">
         <p>We worked with the world's biggest brands</p>
       </section>
-      <footer>
+      <section className="footer">
         <img className="footer-icons" src={eco} alt="eco" />
 
         <img className="footer-icons" src={cube} alt="cube" />
         <img className="touch" src={touch} alt="cube" />
         <img className="footer-icons" src={cloud} alt="cloud" />
         <img className="footer-icons" src={grow} alt="grow" />
+
+   
+      </section>
+      <footer>
+      <p>
+          En este proyecto se utilice la librería React y Framer Motion para  la animación de los elementos.
+          Utilice css para darle estilo a los elementos y las imágenes.
+          Es responsive y se adapta a cualquier tamaño de pantalla.
+        </p>
+        <p>
+          Contacto: <a href="mailto:anibaldaniel2212@gmail.com">
+            Correo Electrónico
+          </a>
+        </p>
       </footer>
     </main>
   );
