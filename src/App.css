@@ -1,0 +1,302 @@
+html{
+height:32vw;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.first-icon {
+  width: 50px;
+  height: auto;
+  margin-left: 2vw;
+}
+
+.second-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 2vw;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 16vw;
+  margin: 5vw auto;
+}
+
+.proto {
+  border: 2px solid #055cf9;
+  border-radius: 50%;
+  background-color: #055cf9;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  margin: 0 1.9vw;
+}
+
+.proto-title {
+  font-size: 1.2vw;
+  color: #d4caca;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.brand {
+  border: 2px solid #b30af7;
+  border-radius: 50%;
+  background-color: #b30af7;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  margin: 0 1.7vw;
+
+}
+
+.brand p {
+  font-size: 1.2vw;
+  color: #d4caca;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.design {
+  border: 2px solid #08fa48;
+  border-radius: 50%;
+  background-color: #08fa48;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  margin: 0 1.7vw;
+
+}
+
+.design p {
+  font-size: 1.2vw;
+  color: #d4caca;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.strategy {
+  border: 2px solid #fa2c05;
+  border-radius: 50%;
+  background-color: #fa2c05;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  margin: 0 1.7vw;
+
+}
+
+.strategy p {
+  font-size: 1.2vw;
+  color: #d4caca;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.paragraph {
+  width: 85%;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 9vw;
+  text-align: center;
+}
+
+.paragraph p {
+  font-size: 1.58vw;
+  color: #0b0b0b;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+
+}
+
+
+.footer-icons {
+  margin-top: 2vw;
+  width: 11vw;
+
+}
+.touch{
+  margin-top: 2vw;
+  width: 9vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 78%;
+  margin: auto;
+
+}
+
+/* <780px */
+@media (max-width: 620px) {
+  html {
+    height : 100vw;
+   
+  }
+.icons {
+  display: none;
+  }
+  .shapes {
+    display: flex;
+    flex-direction: column;
+    height: 70vw;
+  
+  }
+  
+  .proto {
+ 
+    border: 2px solid #055cf9;
+    background-color: #055cf9;
+    border-radius: 10px;
+    width: 68vw;
+    height: 31vw;
+    display: flex;
+    margin: 1vw 0;
+  }
+
+  
+  .proto-title {
+    font-size: 3.5vw;
+    color: #d4caca;
+    text-align: center;
+    align-self: center;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .brand {
+    border: 2px solid #b30af7;
+    border-radius: 10px;
+    width: 68vw;
+    height: 31vw;
+    display: flex;
+    margin: 1vw 0;
+  
+  }
+  
+  .brand p {
+    font-size: 3.5vw;
+    color: #d4caca;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  
+  .design {
+    border: 2px solid #08fa48;
+    border-radius: 10px;
+    width: 68vw;
+    height: 31vw;
+    display: flex;
+    margin: 1vw 0;
+  
+  }
+  
+  .design p {
+    font-size: 3.5vw;
+    color: #d4caca;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  
+  .strategy {
+    border: 2px solid #fa2c05;
+    border-radius: 10px;
+    width: 68vw;
+    height: 31vw;
+    display: flex;
+    margin: 1vw 0;
+
+
+  
+  }
+  
+  .strategy p {
+    font-size: 3.5vw;
+    color: #d4caca;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  
+  .paragraph {
+    width: 85%;
+  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 9vw;
+    text-align: center;
+  }
+  
+  .paragraph p {
+    font-size: 4.3vw;
+    color: #0b0b0b;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  
+  }
+  
+  .footer-icons {
+    margin-top: 2vw;
+
+  
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    margin: auto;
+  
+  }
+  .footer-icons {
+    margin: 2vw;
+    width: 25vw;
+  
+  }
+  .touch{
+    margin-top: 2vw;
+    width: 22vw;
+  }
+  
+}
